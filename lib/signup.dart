@@ -295,7 +295,7 @@ class _RegisterState extends State<Register> {
           .then((value) => {
                 postDetailsToFirestore(username, email),
                 ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                  content: Text("Succesfully Register use!!"),
+                  content: Text("Succesfully Registered user!!"),
                 ))
               })
           .catchError((e) {
