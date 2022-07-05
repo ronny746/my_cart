@@ -63,12 +63,12 @@ class _ForgotpassState extends State<Forgotpass> {
                               contentPadding: const EdgeInsets.only(
                                   left: 14.0, bottom: 8.0, top: 8.0),
                               focusedBorder: OutlineInputBorder(
-                                borderSide: new BorderSide(color: Colors.white),
-                                borderRadius: new BorderRadius.circular(20),
+                                borderSide: BorderSide(color: Colors.white),
+                                borderRadius:  BorderRadius.circular(20),
                               ),
                               enabledBorder: UnderlineInputBorder(
-                                borderSide: new BorderSide(color: Colors.white),
-                                borderRadius: new BorderRadius.circular(20),
+                                borderSide:  BorderSide(color: Colors.white),
+                                borderRadius:  BorderRadius.circular(20),
                               ),
                             ),
                             textInputAction: TextInputAction.done,
