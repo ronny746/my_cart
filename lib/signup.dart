@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:my_cart/model.dart';
+import 'package:my_cart/welcome.dart';
 
 import 'login.dart';
 
@@ -225,6 +226,11 @@ class _RegisterState extends State<Register> {
 
                             signUp(name.text, emailController.text,
                                 passwordController.text);
+                            Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const Welcome(),
+                                ));
                           },
                           color: Colors.white,
                           child: const Text(
